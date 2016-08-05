@@ -1,6 +1,6 @@
 ///configurations
 ///slack incoming webhook channel
-var channelUrl = 'https://hooks.slack.com/services/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';
+var channelUrl = 'https://hooks.slack.com/services/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';
 var channelName = '#random';
 var channelUsername = 'dilbert';
 var messagePretext = 'Your daily dose of office humor ';
