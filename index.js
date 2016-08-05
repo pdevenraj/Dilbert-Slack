@@ -1,7 +1,7 @@
 ///configurations
 ///slack incoming webhook channel
 var channelUrl = process.env.CHANNEL;
-var channelName = '#dilbert';
+var channelName = '#random';
 var channelUsername = 'dilbert';
 var messagePretext = 'Your daily dose of office humor ';
 var messageTitle = 'Daily Dilbert';
