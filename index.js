@@ -1,6 +1,6 @@
 ///configurations
 ///slack incoming webhook channel
-var channelUrl = process.env.CHANNEL;
+var channelUrl = 'https://hooks.slack.com/services/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';
 var channelName = '#random';
 var channelUsername = 'dilbert';
 var messagePretext = 'Your daily dose of office humor ';
@@ -11,7 +11,7 @@ var cheerio = require('cheerio');
 var endpoint = 'http://dilbert.com';
 var cronTime = '00 00 11 * * 1-7';
 var timeZone = 'America/New_York';
-var port = process.env.PORT || 80;
+var port = 443;
 ////end configurations
 var http = require('http');
 var fs = require('fs');
