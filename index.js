@@ -9,9 +9,9 @@ var slack = require('slack-notify')(channelUrl);
 var request = require('request');
 var cheerio = require('cheerio');
 var endpoint = 'http://dilbert.com';
-var cronTime = '00 00 11 * * 1-7';
+var cronTime = '00 00 12 * * 1-7';
 var timeZone = 'America/New_York';
-var port = 443;
+var port = 80;
 ////end configurations
 var http = require('http');
 var fs = require('fs');
