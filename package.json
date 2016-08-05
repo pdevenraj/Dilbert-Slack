@@ -19,10 +19,10 @@
     "fun",
     "humor"
   ],
-  "author": "Milos Bejda <mbejda@live.com> (mbejda.com)",
+  "author": "Office Guy",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/NeoReach/dilbert-slack/issues"
+    "url": "https://github.com/pdevenraj/dilbert-slack/issues"
   },
   "homepage": "https://github.com/pdevenraj/Dilbert-Slack",
   "dependencies": {
