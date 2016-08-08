@@ -1,7 +1,7 @@
 ///configurations
 ///slack incoming webhook channel
-var channelUrl = 'https://hooks.slack.com/services/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';
-var channelName = '@pdevenraj';
+var channelUrl = 'https://hooks.slack.com/services/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';
+var channelName = '#random';
 var channelUsername = 'dilbert';
 var messagePretext = 'Your daily dose of office humor ';
 var messageTitle = 'Daily Dilbert';
@@ -9,7 +9,7 @@ var slack = require('slack-notify')(channelUrl);
 var request = require('request');
 var cheerio = require('cheerio');
 var endpoint = 'http://dilbert.com';
-var cronTime = '00 16 * * *';
+var cronTime = '00 11 * * *';
 var timeZone = 'America/New_York';
 var port = process.env.PORT || 80;
 ////end configurations
